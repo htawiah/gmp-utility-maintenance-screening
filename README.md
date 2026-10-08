@@ -71,6 +71,8 @@ The notebook covered layer and field inspection, maintenance screening, anomaly 
 - Distribution lines were mapped but were not assigned a validated risk model.
 - This project does not provide a complete 3D digital twin.
 
+![GMP Utility Maintenance Dashboard](dashboard.png)
+
 ## Author
 
 Hanson Tawiah
