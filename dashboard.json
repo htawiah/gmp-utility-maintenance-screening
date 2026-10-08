@@ -1,0 +1,998 @@
+{
+  "version": "5.1.0",
+  "authoringApp": "ArcGIS Dashboards",
+  "authoringAppVersion": "5.1.0+259753e880",
+  "maxPaginationRecords": 50000,
+  "maxChartRecords": 10000,
+  "timeZone": "system",
+  "theme": {
+    "id": "light",
+    "type": "defined"
+  },
+  "numberPrefixOverrides": [
+    {
+      "key": "yotta",
+      "symbol": "Y",
+      "enabled": true
+    },
+    {
+      "key": "zeta",
+      "symbol": "Z",
+      "enabled": true
+    },
+    {
+      "key": "exa",
+      "symbol": "E",
+      "enabled": true
+    },
+    {
+      "key": "peta",
+      "symbol": "P",
+      "enabled": true
+    },
+    {
+      "key": "tera",
+      "symbol": "T",
+      "enabled": true
+    },
+    {
+      "key": "giga",
+      "symbol": "G",
+      "enabled": true
+    },
+    {
+      "key": "mega",
+      "symbol": "M",
+      "enabled": true
+    },
+    {
+      "key": "kilo",
+      "symbol": "k",
+      "enabled": true
+    },
+    {
+      "key": "base",
+      "symbol": "",
+      "enabled": true
+    },
+    {
+      "key": "deci",
+      "symbol": "d",
+      "enabled": false
+    },
+    {
+      "key": "centi",
+      "symbol": "c",
+      "enabled": false
+    },
+    {
+      "key": "milli",
+      "symbol": "m",
+      "enabled": false
+    },
+    {
+      "key": "micro",
+      "symbol": "\u00b5",
+      "enabled": false
+    },
+    {
+      "key": "nano",
+      "symbol": "n",
+      "enabled": false
+    }
+  ],
+  "desktopView": {
+    "layout": {
+      "type": "dockingLayout",
+      "rootElement": {
+        "width": 1,
+        "height": 1,
+        "id": "9b474d56-42ed-4b8e-b514-5c694b9a4174",
+        "elements": [
+          {
+            "width": 1,
+            "height": 0.09813084112149528,
+            "id": "f1f287ae-f68e-4ad6-813c-1b08b7adda9b",
+            "elements": [
+              {
+                "width": 0.25,
+                "height": 1,
+                "type": "itemLayoutElement",
+                "id": "a6af5f03-a30b-4646-9f59-722e77e3eada"
+              },
+              {
+                "width": 0.25,
+                "height": 1,
+                "type": "itemLayoutElement",
+                "id": "0579610c-f527-4600-813b-c09fadb7c5dc"
+              },
+              {
+                "width": 0.25,
+                "height": 1,
+                "type": "itemLayoutElement",
+                "id": "1107aa79-730a-4aa8-a2d4-27d940aacbaf"
+              },
+              {
+                "width": 0.25,
+                "height": 1,
+                "type": "itemLayoutElement",
+                "id": "b31ac62d-6ad1-468c-a810-5e61123195f0"
+              }
+            ],
+            "type": "stackLayoutElement",
+            "orientation": "col"
+          },
+          {
+            "width": 1,
+            "height": 0.9018691588785047,
+            "id": "9a63300c-e7db-4901-ad11-486699969edf",
+            "elements": [
+              {
+                "width": 0.7983425414364649,
+                "height": 1,
+                "id": "ff2605dc-d3cb-42a8-b57a-8fd9196987d4",
+                "elements": [
+                  {
+                    "width": 1,
+                    "height": 0.7782219998332086,
+                    "type": "itemLayoutElement",
+                    "id": "15876dcf-48b7-4062-96d6-5b4a7923d2fe"
+                  },
+                  {
+                    "width": 1,
+                    "height": 0.2217780001667914,
+                    "type": "itemLayoutElement",
+                    "id": "836552f7-fcad-4e28-983f-246867022a42"
+                  }
+                ],
+                "type": "stackLayoutElement",
+                "orientation": "row"
+              },
+              {
+                "width": 0.20165745856353512,
+                "height": 1,
+                "id": "5155967a-eddd-4432-b662-b1126defc212",
+                "elements": [
+                  {
+                    "width": 1,
+                    "height": 0.5,
+                    "type": "itemLayoutElement",
+                    "id": "23c88e34-c937-4b8e-b81b-a19cd1679a6d"
+                  },
+                  {
+                    "width": 1,
+                    "height": 0.5,
+                    "type": "itemLayoutElement",
+                    "id": "475dd6ef-035b-49a2-9342-554496611ecd"
+                  }
+                ],
+                "type": "stackLayoutElement",
+                "orientation": "row"
+              }
+            ],
+            "type": "stackLayoutElement",
+            "orientation": "col"
+          }
+        ],
+        "type": "stackLayoutElement",
+        "orientation": "row"
+      }
+    },
+    "type": "desktop",
+    "widgets": [
+      {
+        "id": "15876dcf-48b7-4062-96d6-5b4a7923d2fe",
+        "dashboardItemType": "widget",
+        "name": "GMP Utility Maintenance Screening",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "type": "mapWidget",
+        "flashRepeats": 3,
+        "itemId": "3de643570783452eb7cdd54d850797af",
+        "linkedMapWidgetIds": [],
+        "mapTools": [
+          {
+            "type": "bookmarksTool"
+          }
+        ],
+        "showMeasureTool": false,
+        "showNavigation": true,
+        "showPanRotate": false,
+        "showLocate": false,
+        "showCompass": false,
+        "showPopup": true,
+        "scalebarStyle": "none",
+        "editingEnabled": false,
+        "trackedFeatureRadius": 60,
+        "selectTool": {
+          "type": "selectTool",
+          "clickToSelect": false,
+          "advanceSketchTools": []
+        }
+      },
+      {
+        "id": "a6af5f03-a30b-4646-9f59-722e77e3eada",
+        "dashboardItemType": "widget",
+        "name": "Total poles",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "datasets": [
+          {
+            "type": "serviceDataset",
+            "name": "main",
+            "dataSource": {
+              "type": "layerDataSource",
+              "itemId": "3de643570783452eb7cdd54d850797af",
+              "layerId": "6cf95eb52b8f47daa153f809674d721d"
+            },
+            "groupByFields": [],
+            "orderByFields": [],
+            "statisticDefinitions": [
+              {
+                "onStatisticField": "OBJECTID",
+                "statisticType": "count",
+                "outStatisticFieldName": "COUNT_OBJECTID"
+              }
+            ],
+            "outFields": [
+              "OBJECTID"
+            ],
+            "returnDistinctValues": false,
+            "allowSourceDownload": false,
+            "allowSummaryDownload": false
+          }
+        ],
+        "type": "indicatorWidget",
+        "defaultSettings": {
+          "topSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "Total poles",
+              "weight": "normal"
+            }
+          },
+          "middleSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "{calculated/value}",
+              "weight": "normal"
+            }
+          },
+          "bottomSection": {
+            "maxHeight": 0,
+            "textInfo": {
+              "weight": "normal"
+            }
+          }
+        },
+        "verticalAlignment": "middle",
+        "comparison": "none",
+        "valueFormat": {
+          "name": "value",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 0
+        },
+        "percentageFormat": {
+          "name": "percentage",
+          "prefix": false,
+          "style": "percent",
+          "useGrouping": true
+        },
+        "ratioFormat": {
+          "name": "ratio",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 2
+        },
+        "valueType": "statistic",
+        "noValueState": {},
+        "showFeatureMenu": false
+      },
+      {
+        "id": "0579610c-f527-4600-813b-c09fadb7c5dc",
+        "dashboardItemType": "widget",
+        "name": "High priority",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "datasets": [
+          {
+            "type": "serviceDataset",
+            "name": "main",
+            "dataSource": {
+              "type": "layerDataSource",
+              "itemId": "3de643570783452eb7cdd54d850797af",
+              "layerId": "6cf95eb52b8f47daa153f809674d721d"
+            },
+            "filter": {
+              "type": "filterGroup",
+              "condition": "OR",
+              "rules": [
+                {
+                  "type": "filterGroup",
+                  "condition": "AND",
+                  "rules": [
+                    {
+                      "type": "filterRule",
+                      "field": {
+                        "name": "Priority_Class",
+                        "type": "string"
+                      },
+                      "operator": "equal",
+                      "constraint": {
+                        "type": "value",
+                        "value": "High"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "groupByFields": [],
+            "orderByFields": [],
+            "statisticDefinitions": [
+              {
+                "onStatisticField": "OBJECTID",
+                "statisticType": "count",
+                "outStatisticFieldName": "COUNT_OBJECTID"
+              }
+            ],
+            "outFields": [
+              "Priority_Class",
+              "OBJECTID"
+            ],
+            "returnDistinctValues": false,
+            "allowSourceDownload": false,
+            "allowSummaryDownload": false
+          }
+        ],
+        "type": "indicatorWidget",
+        "defaultSettings": {
+          "topSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "High priority",
+              "weight": "normal"
+            }
+          },
+          "middleSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "{calculated/value}",
+              "weight": "normal"
+            }
+          },
+          "bottomSection": {
+            "maxHeight": 0,
+            "textInfo": {
+              "weight": "normal"
+            }
+          }
+        },
+        "verticalAlignment": "middle",
+        "comparison": "none",
+        "valueFormat": {
+          "name": "value",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 0
+        },
+        "percentageFormat": {
+          "name": "percentage",
+          "prefix": false,
+          "style": "percent",
+          "useGrouping": true
+        },
+        "ratioFormat": {
+          "name": "ratio",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 2
+        },
+        "valueType": "statistic",
+        "noValueState": {},
+        "showFeatureMenu": false
+      },
+      {
+        "id": "1107aa79-730a-4aa8-a2d4-27d940aacbaf",
+        "dashboardItemType": "widget",
+        "name": "ML flags for review",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "datasets": [
+          {
+            "type": "serviceDataset",
+            "name": "main",
+            "dataSource": {
+              "type": "layerDataSource",
+              "itemId": "3de643570783452eb7cdd54d850797af",
+              "layerId": "6cf95eb52b8f47daa153f809674d721d"
+            },
+            "filter": {
+              "type": "filterGroup",
+              "condition": "OR",
+              "rules": [
+                {
+                  "type": "filterGroup",
+                  "condition": "AND",
+                  "rules": [
+                    {
+                      "type": "filterRule",
+                      "field": {
+                        "name": "ML_Anomaly",
+                        "type": "small-integer"
+                      },
+                      "operator": "equal",
+                      "constraint": {
+                        "type": "value",
+                        "value": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "groupByFields": [],
+            "orderByFields": [],
+            "statisticDefinitions": [
+              {
+                "onStatisticField": "OBJECTID",
+                "statisticType": "count",
+                "outStatisticFieldName": "COUNT_OBJECTID"
+              }
+            ],
+            "outFields": [
+              "ML_Anomaly",
+              "OBJECTID"
+            ],
+            "returnDistinctValues": false,
+            "allowSourceDownload": false,
+            "allowSummaryDownload": false
+          }
+        ],
+        "type": "indicatorWidget",
+        "defaultSettings": {
+          "topSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "ML flags for review",
+              "weight": "normal"
+            }
+          },
+          "middleSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "{calculated/value}",
+              "weight": "normal"
+            }
+          },
+          "bottomSection": {
+            "maxHeight": 0,
+            "textInfo": {
+              "weight": "normal"
+            }
+          }
+        },
+        "verticalAlignment": "middle",
+        "comparison": "none",
+        "valueFormat": {
+          "name": "value",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 0
+        },
+        "percentageFormat": {
+          "name": "percentage",
+          "prefix": false,
+          "style": "percent",
+          "useGrouping": true
+        },
+        "ratioFormat": {
+          "name": "ratio",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 2
+        },
+        "valueType": "statistic",
+        "noValueState": {},
+        "showFeatureMenu": false
+      },
+      {
+        "id": "b31ac62d-6ad1-468c-a810-5e61123195f0",
+        "dashboardItemType": "widget",
+        "name": "Distribution line features",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "datasets": [
+          {
+            "type": "serviceDataset",
+            "name": "main",
+            "dataSource": {
+              "type": "layerDataSource",
+              "itemId": "3de643570783452eb7cdd54d850797af",
+              "layerId": "16a72e08df10426ea8ed6f7673871a67"
+            },
+            "groupByFields": [],
+            "orderByFields": [],
+            "statisticDefinitions": [
+              {
+                "onStatisticField": "OBJECTID",
+                "statisticType": "count",
+                "outStatisticFieldName": "COUNT_OBJECTID"
+              }
+            ],
+            "outFields": [
+              "OBJECTID"
+            ],
+            "returnDistinctValues": false,
+            "allowSourceDownload": false,
+            "allowSummaryDownload": false
+          }
+        ],
+        "type": "indicatorWidget",
+        "defaultSettings": {
+          "topSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "Distribution line features",
+              "weight": "normal"
+            }
+          },
+          "middleSection": {
+            "maxHeight": 30,
+            "textInfo": {
+              "text": "{calculated/value}",
+              "weight": "normal"
+            }
+          },
+          "bottomSection": {
+            "maxHeight": 0,
+            "textInfo": {
+              "weight": "normal"
+            }
+          }
+        },
+        "verticalAlignment": "middle",
+        "comparison": "none",
+        "valueFormat": {
+          "name": "value",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 0
+        },
+        "percentageFormat": {
+          "name": "percentage",
+          "prefix": false,
+          "style": "percent",
+          "useGrouping": true
+        },
+        "ratioFormat": {
+          "name": "ratio",
+          "prefix": false,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 2
+        },
+        "valueType": "statistic",
+        "noValueState": {},
+        "showFeatureMenu": false
+      },
+      {
+        "id": "23c88e34-c937-4b8e-b81b-a19cd1679a6d",
+        "dashboardItemType": "widget",
+        "name": "Pie chart (1)",
+        "title": "Poles by maintenance priority",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "datasets": [
+          {
+            "type": "serviceDataset",
+            "name": "main",
+            "dataSource": {
+              "type": "layerDataSource",
+              "itemId": "3de643570783452eb7cdd54d850797af",
+              "layerId": "6cf95eb52b8f47daa153f809674d721d"
+            },
+            "groupByFields": [
+              "Priority_Class"
+            ],
+            "orderByFields": [],
+            "statisticDefinitions": [
+              {
+                "onStatisticField": "OBJECTID",
+                "statisticType": "count",
+                "outStatisticFieldName": "COUNT_OBJECTID"
+              }
+            ],
+            "outFields": [
+              "Priority_Class",
+              "OBJECTID"
+            ],
+            "returnDistinctValues": false,
+            "allowSourceDownload": false,
+            "allowSummaryDownload": false
+          }
+        ],
+        "events": [
+          {
+            "type": "selectionChanged",
+            "actions": [
+              {
+                "targets": [
+                  {
+                    "targetId": "15876dcf-48b7-4062-96d6-5b4a7923d2fe",
+                    "by": "geometry",
+                    "requiresSelection": false
+                  }
+                ],
+                "type": "zoom"
+              },
+              {
+                "targets": [
+                  {
+                    "targetId": "15876dcf-48b7-4062-96d6-5b4a7923d2fe#6cf95eb52b8f47daa153f809674d721d",
+                    "by": "whereClause",
+                    "requiresSelection": false
+                  }
+                ],
+                "type": "filter"
+              }
+            ]
+          }
+        ],
+        "actionMode": "monoSelection",
+        "categoryType": "groupByValues",
+        "type": "pieChartWidget",
+        "chartConfig": {
+          "version": "25.1.0",
+          "type": "chart",
+          "orderOptions": {},
+          "colorMatch": true,
+          "chartRenderer": {
+            "type": "uniqueValue",
+            "field1": "Priority_Class",
+            "uniqueValueInfos": [
+              {
+                "label": "Unknown",
+                "symbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": [
+                    240,
+                    242,
+                    242,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "width": 0
+                  }
+                },
+                "value": "Unknown"
+              },
+              {
+                "label": "Low",
+                "symbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": [
+                    58,
+                    240,
+                    203,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "width": 0
+                  }
+                },
+                "value": "Low"
+              },
+              {
+                "label": "High",
+                "symbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": [
+                    240,
+                    40,
+                    10,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "width": 0
+                  }
+                },
+                "value": "High"
+              },
+              {
+                "label": "Medium",
+                "symbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": [
+                    247,
+                    167,
+                    7,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "width": 0
+                  }
+                },
+                "value": "Medium"
+              },
+              {
+                "label": "null",
+                "symbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": [
+                    214,
+                    214,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "width": 0
+                  }
+                },
+                "value": null
+              },
+              {
+                "label": "blank",
+                "symbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": [
+                    214,
+                    214,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "width": 0
+                  }
+                },
+                "value": ""
+              }
+            ]
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "id": "main",
+              "name": "main",
+              "x": "Priority_Class",
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "angle": 0,
+                  "font": {
+                    "family": "inherit",
+                    "style": "normal",
+                    "weight": "normal"
+                  }
+                }
+              },
+              "dataTooltipVisible": true,
+              "dataTooltipReverseColor": true,
+              "optimizeDataLabelsOverlapping": true,
+              "alignDataLabels": true,
+              "innerRadius": 0,
+              "startAngle": 270,
+              "y": "COUNT_OBJECTID",
+              "ticks": {
+                "type": "pieTick",
+                "lineSymbol": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    214,
+                    214,
+                    214,
+                    127.5
+                  ]
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  214,
+                  214,
+                  214,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "width": 0
+                }
+              },
+              "dataLabelsOffset": 10,
+              "sliceGrouping": {
+                "sliceId": "__other-slice__",
+                "percentageThreshold": 0,
+                "fillSymbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": [
+                    214,
+                    214,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "width": 0
+                  }
+                }
+              }
+            }
+          ],
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "body": {
+              "type": "esriTS",
+              "angle": 0,
+              "font": {
+                "family": "inherit",
+                "size": 11,
+                "style": "normal",
+                "weight": "normal"
+              }
+            },
+            "position": "bottom",
+            "displayPercentage": false,
+            "displayNumericValue": true,
+            "labelMaxWidth": 100,
+            "valueLabelMaxWidth": 50
+          }
+        },
+        "dataLabelsFormat": "percentage",
+        "valueFormat": {
+          "name": "value",
+          "prefix": true,
+          "style": "decimal",
+          "useGrouping": true,
+          "maximumFractionDigits": 1
+        },
+        "percentageFormat": {
+          "name": "percentage",
+          "prefix": false,
+          "style": "percent",
+          "useGrouping": true,
+          "maximumFractionDigits": 2
+        }
+      },
+      {
+        "id": "475dd6ef-035b-49a2-9342-554496611ecd",
+        "dashboardItemType": "widget",
+        "name": "List (1)",
+        "title": "ML-flagged poles \u2014 top 25 by maintenance score.",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "datasets": [
+          {
+            "type": "serviceDataset",
+            "name": "main",
+            "dataSource": {
+              "type": "layerDataSource",
+              "itemId": "3de643570783452eb7cdd54d850797af",
+              "layerId": "6cf95eb52b8f47daa153f809674d721d"
+            },
+            "filter": {
+              "type": "filterGroup",
+              "condition": "OR",
+              "rules": [
+                {
+                  "type": "filterGroup",
+                  "condition": "AND",
+                  "rules": [
+                    {
+                      "type": "filterRule",
+                      "field": {
+                        "name": "ML_Anomaly",
+                        "type": "small-integer"
+                      },
+                      "operator": "equal",
+                      "constraint": {
+                        "type": "value",
+                        "value": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "groupByFields": [],
+            "orderByFields": [
+              "Priority_Score DESC"
+            ],
+            "statisticDefinitions": [],
+            "maxFeatures": 25,
+            "outFields": [
+              "ML_Anomaly",
+              "Priority_Score",
+              "POLETAG",
+              "Priority_Class",
+              "Pole_Age"
+            ],
+            "returnDistinctValues": false,
+            "allowSourceDownload": false,
+            "allowSummaryDownload": false
+          }
+        ],
+        "events": [
+          {
+            "type": "selectionChanged",
+            "actions": [
+              {
+                "targets": [
+                  {
+                    "targetId": "15876dcf-48b7-4062-96d6-5b4a7923d2fe",
+                    "by": "geometry",
+                    "requiresSelection": false
+                  }
+                ],
+                "type": "zoom"
+              }
+            ]
+          }
+        ],
+        "type": "listWidget",
+        "selectionMode": "single",
+        "iconType": "symbol",
+        "text": "<p>&nbsp;</p><p>Pole: {field/POLETAG}<br>Priority: {field/Priority_Class}<br>Age: {field/Pole_Age} years<br>Maintenance score: {field/Priority_Score}</p>",
+        "showFilter": false
+      },
+      {
+        "id": "836552f7-fcad-4e28-983f-246867022a42",
+        "dashboardItemType": "widget",
+        "name": "Rich text (1)",
+        "noDataState": {},
+        "noFilterState": {},
+        "focusModeEnabled": false,
+        "datasets": [],
+        "type": "richTextWidget",
+        "text": "<p><span><strong>Methods and interpretation</strong></span></p><p><span>Maintenance priority uses a rule-based score to group poles into High, Medium, Low, or Unknown categories.</span></p><p><span>Machine learning uses an unsupervised Principal Component Analysis (PCA) anomaly screen to identify poles with unusual combinations of asset attributes. It screened 11,126 poles and flagged 561 for review. Seven poles lacked age data and were excluded.</span></p><p><span>An ML flag indicates an unusual record that deserves inspection or data verification. It does not establish that a pole is damaged or likely to fail. Failure and inspection records would be needed to validate a predictive model.</span></p><p><span>The review list displays 25 flagged poles with the highest rule-based maintenance scores.</span></p>",
+        "valueType": "none",
+        "showFeatureMenu": false
+      }
+    ],
+    "settings": {
+      "allowElementResizing": false,
+      "allowReset": false
+    }
+  },
+  "elementMappings": {}
+}
