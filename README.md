@@ -73,6 +73,12 @@ The notebook covered layer and field inspection, maintenance screening, anomaly 
 
 ![GMP Utility Maintenance Dashboard](dashboard.png)
 
+## Analysis notebook
+
+[View the analysis notebook](GMP_Utility_Maintenance_Screening.ipynb)
+
+Includes rule-based priority classification, PCA anomaly screening, and dashboard configuration export. Requires ArcGIS Pro and prepared pole data with existing Pole_Age and Priority_Score fields; their original calculation code is not included.
+
 ## Author
 
 Hanson Tawiah
